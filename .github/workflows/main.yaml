@@ -1,5 +1,5 @@
 name: Sonar-workflow
-on: workflow_dispatch
+on: [workflow_dispatch,push]
 env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: actapp
